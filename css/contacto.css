@@ -1,0 +1,230 @@
+body {
+    background: #59ABE3;
+    margin: 0
+}
+
+/* pc */
+@media screen and (min-width: 500px) {
+    .formulario {
+        width: 60%;
+        border :1px solid black;
+
+
+    }
+    .contenedor-principal {
+        display: flex;
+        width: 100%;
+        padding-bottom: 15rem;
+    }
+
+    .contenedormapa {
+        width: 302px;
+        
+    }
+
+    .Texto h2 {
+        color: white;
+        width: 302px;
+        text-align: center;
+        border-bottom: #000;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 200px;
+        width: 300px;
+        border: 1px solid white;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: left;
+        height: 200px;
+        width: 300px;
+        float: left;
+        
+    }
+
+    .form {
+        width: 340px;
+        height: 440px;
+        background: #ebff34;
+        border-radius: 8px;
+        box-shadow: 0 0 40px -10px #000;
+        margin: calc(50vh - 220px) auto;
+        padding: 20px 30px;
+        max-width: calc(100vw - 40px);
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+    }
+
+    h2 {
+        margin: 10px 0;
+        padding-bottom: 10px;
+        width: 180px;
+        color: #7e7e7e;
+        border-bottom: 3px solid #7e7e7e;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background: none;
+        outline: none;
+        resize: none;
+        border: 0;
+        font-family: 'Montserrat', sans-serif;
+        transition: all .3s;
+        border-bottom: 2px solid #7e7e7e;
+    }
+
+    input:focus {
+        border-bottom: 2px solid #7e7e7e;
+    }
+
+    p:before {
+        content: attr(type);
+        display: block;
+        margin: 28px 0 0;
+        font-size: 14px;
+        color: #7e7e7e;
+    }
+
+    .sM {
+        float: right;
+        padding: 8px 12px;
+        margin: 8px 0 0;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid #7e7e7e;
+        background: 0;
+        color: #7e7e7e;
+        cursor: pointer;
+        transition: all .3s
+    }
+
+    button:hover {
+        background: #7e7e7e;
+        color: #fff
+    }
+
+
+    span fa fa-phone {
+        margin: 0 5px 0 15px
+    }
+}
+/* mobile */
+@media screen and (max-width: 500px) {
+
+    .contenedor-principal {
+        width: 100%;
+    }
+
+    .contenedormapa {
+        width: 100%;
+        background-color: #393939;
+    }
+
+    .Texto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Texto h2 {
+        width: 100%;
+        border-bottom: white;
+        color: white;
+        text-align: center;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 200px;
+        width: 500px;
+        display: flex;
+    }
+
+    .mapouter {
+        position: relative;
+        float: center;
+        width: 500px;
+    }
+
+    .form {
+        width: 340px;
+        height: 440px;
+        background: #ebff34;
+        border-radius: 8px;
+        box-shadow: 0 0 40px -10px #000;
+        margin: calc(50vh - 220px) auto;
+        padding: 20px 30px;
+        max-width: calc(100vw - 40px);
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        position: relative
+    }
+
+    h2 {
+        margin: 10px 0;
+        padding-bottom: 10px;
+        color: #7e7e7e;
+        border-bottom: 3px solid #7e7e7e;
+    }
+    h3 {
+        margin: 10px 0;
+        padding-bottom: 10px;
+        color: #ffffff;
+        border-bottom: 3px solid #7e7e7e;
+    }
+
+
+    input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background: none;
+        outline: none;
+        resize: none;
+        border: 0;
+        font-family: 'Montserrat', sans-serif;
+        transition: all .3s;
+        border-bottom: 2px solid #7e7e7e;
+    }
+
+    input:focus {
+        border-bottom: 2px solid #7e7e7e;
+    }
+
+    p:before {
+        content: attr(type);
+        display: block;
+        margin: 28px 0 0;
+        font-size: 14px;
+        color: #7e7e7e;
+    }
+
+    .sM {
+        float: right;
+        padding: 8px 12px;
+        margin: 8px 0 0;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid #7e7e7e;
+        background: 0;
+        color: #7e7e7e;
+        cursor: pointer;
+        transition: all .3s
+    }
+
+    button:hover {
+        background: #7e7e7e;
+        color: #fff
+    }
+
+
+    span fa fa-phone {
+        margin: 0 5px 0 15px
+    }
+}
