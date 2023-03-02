@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Pago</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/index.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/d3ed8bcc39.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/pago.css">
+    </head>
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#!">EL LAPICERO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container d-flex justify-content-center mt-5 mb-5">
+
+            
+
+        <div class="row g-3">
+
+          <div class="col-md-6">  
+            
+            <span>Metodo de pago</span>
+            <div class="card">
+
+              <div class="accordion" id="accordionExample">
+                
+                <div class="card">
+                  <div class="card-header p-0" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-light btn-block text-left collapsed p-3 rounded-0 border-bottom-custom" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="d-flex align-items-center justify-content-between">
+
+                          <span>Peipal</span>
+                          <img src="https://i.imgur.com/7kQEsHU.png" width="30">
+                          
+                        </div>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <input type="text" class="form-control" placeholder="Paypal email">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card-header p-0">
+                    <h2 class="mb-0">
+                      <button class="btn btn-light btn-block text-left p-3 rounded-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="d-flex align-items-center justify-content-between">
+
+                          <span>Targeta de credito</span>
+                          <div class="icons">
+                            <img src="https://i.imgur.com/2ISgYja.png" width="30">
+                            <img src="https://i.imgur.com/W1vtnOV.png" width="30">
+                            <img src="https://i.imgur.com/35tC99g.png" width="30">
+                            <img src="https://i.imgur.com/2ISgYja.png" width="30">
+                          </div>
+                          
+                        </div>
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body payment-card-body">
+                      
+                      <span class="font-weight-normal card-text">Numero de targeta</span>
+                      <div class="input">
+
+                        <i class="fa fa-credit-card"></i>
+                        <input type="text" class="form-control" placeholder="0000 0000 0000 0000">
+                        
+                      </div> 
+
+                      <div class="row mt-3 mb-3">
+
+                        <div class="col-md-6">
+
+                          <span class="font-weight-normal card-text">fecha de expiracion</span>
+                          <div class="input">
+
+                            <i class="fa fa-calendar"></i>
+                            <input type="text" class="form-control" placeholder="MM/YY">
+                            
+                          </div> 
+                          
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                          <span class="font-weight-normal card-text">CVC/CVV</span>
+                          <div class="input">
+
+                            <i class="fa fa-lock"></i>
+                            <input type="text" class="form-control" placeholder="000">
+                            
+                          </div> 
+                          
+                        </div>
+                        
+
+                      </div>
+
+                      <span class="text-muted certificate-text"><i class="fa fa-lock"></i> Your transaction is secured with ssl certificate</span>
+                     
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+
+          </div>
+
+          <div class="col-md-6">
+              <span>Sumario</span>
+
+              <div class="card">
+
+                <div class="d-flex justify-content-between p-3">
+
+                  <div class="d-flex flex-column">
+
+                    <span>Pago Mensual<i class="fa fa-caret-down"></i></span>
+                    <span></span>
+                    
+                  </div>
+
+                  <div class="mt-1">
+                    <sup class="super-price">$9.99</sup>
+                    <span class="super-month">/Month</span>
+                  </div>
+                  
+                </div>
+
+                <hr class="mt-0 line">
+
+                <div class="p-3">
+
+                  <div class="d-flex justify-content-between mb-2">
+
+                    <span>Codigo de referencia</span>
+                    <span>-$2.00</span>
+                    
+                  </div>
+
+                  <div class="d-flex justify-content-between">
+
+                    <span>IVA <i class="fa fa-clock-o"></i></span>
+                    <span>-21%</span>
+                    
+                  </div>
+                  
+
+                </div>
+
+                <hr class="mt-0 line">
+
+
+                <div class="p-3 d-flex justify-content-between">
+
+                  <div class="d-flex flex-column">
+
+                    <span>Hoy pagas</span>
+                    <small>Despues de 30 dias $9.59</small>
+                    
+                  </div>
+                  <span>$0</span>
+
+                  
+
+                </div>
+
+
+                <div class="p-3">
+
+                <button class="btn btn-primary btn-block free-button">Terminar con el pago</button> 
+               
+                  
+                </div>
+
+
+
+                
+              </div>
+          </div>
+          
+        </div>
+        
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="bg-dark text-center text-white fixed-bottom">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.facebook.com/KFC.Spain/?brand_redir=7144906559" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://twitter.com/KFC_ES?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.google.com/" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/p/CWqpGh3KLIa/" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://es.linkedin.com/company/kfc" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://github.com/jfusterr/projectobootstrap" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" href="#!">El Lapicero</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
