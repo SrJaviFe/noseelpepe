@@ -6,3 +6,5 @@ Página usuario:
   - JSON
   - INFO USER
   - MIS PEDIDOS
+
+Página catálogos (TRABAJA JAVI PERRRRRRRO)
