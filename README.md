@@ -1,10 +1,6 @@
 # EL LAPICERO
 
-Enlace de registro a login o "has registrado correctamente"
-
-Página usuario:
-  - JSON
-  - INFO USER
-  - MIS PEDIDOS
-
-Página catálogos (TRABAJA JAVI PERRRRRRRO)
+Antonio Paniza - Esquema directorios, Perfil y Usuario, Index y plantillas
+Marc Miró - Contacto
+Javier Fuster - Galeria, precios
+Simeon Yordanov - JSON, Carrito compra, Pago Correcto, Login
