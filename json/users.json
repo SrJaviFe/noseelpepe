@@ -1,0 +1,22 @@
+{
+    "users":[
+      {
+        "name":"juanjo",
+        "tlf":"682237368",
+        "email":"juanjo@gmail.com",
+        "direccion":"Avda. Portugal 1"
+      },
+      {
+        "name":"Pedro",
+        "tlf":"646753421",
+        "email":"pedro@gmail.com",
+        "direccion":"General Riera 21"
+      },
+      {
+        "name":"Esteban",
+        "tlf":"688544445",
+        "email":"estebanco@gmail.com",
+        "direccion":"Plaza España 1"
+      }
+    ]
+  }
