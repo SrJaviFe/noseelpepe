@@ -14,7 +14,7 @@
         "hora":"18:50",
         "pedidos":[
             {
-                "name":"Completos",
+                "name":"Completados",
                 "total":"1.990"
             },
             {
@@ -65,7 +65,7 @@
         "hora":"13:20",
         "pedidos":[
             {
-                "name":"Completos",
+                "name":"Completados",
                 "total":"1.992"
             },
             {
@@ -75,11 +75,3 @@
         ]
     }
 }
-
-}
-
-
-
-
-
-   
