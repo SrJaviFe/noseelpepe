@@ -1,0 +1,85 @@
+{
+    "pedido1":{
+        "estado":0,
+        "codigo":"ABC1555",
+        "repartidor":0,
+        "comentario":"",
+        "direccion":"Avda. Portugal 1",
+        "ciudad":"Palma",
+        "subtotal":"74.00",
+        "pago":"Pagado Online",
+        "cliente":"Juanjo",
+        "telefono":"682237368",
+        "fecha":"2023-03-15",
+        "hora":"18:50",
+        "pedidos":[
+            {
+                "name":"Completos",
+                "total":"1.990"
+            },
+            {
+                "name":"Espñol",
+                "total":"1.990"
+            }
+        ]
+    },
+
+
+    "pedido2":{
+        "estado":0,
+        "codigo":"ABC1556",
+        "repartidor":0,
+        "comentario":"",
+        "direccion":"General Riera 21",
+        "ciudad":"Palma",
+        "subtotal":"124.00",
+        "pago":"Pagado Online",
+        "cliente":"Pedro",
+        "telefono":"646753421",
+        "fecha":"2023-03-15",
+        "hora":"19:21",
+        "pedidos":[
+            {
+                "name":"Completados",
+                "total":"1.991"
+            },
+            {
+                "name":"Espñol",
+                "total":"1.991"
+            }
+        ]
+    },
+
+    "pedido3":{
+        "estado":0,
+        "codigo":"ABC1557",
+        "repartidor":0,
+        "comentario":"",
+        "direccion":"Plaza España 1",
+        "ciudad":"Palma",
+        "subtotal":"1471.00",
+        "pago":"Pagado Online",
+        "cliente":"Esteban",
+        "telefono":"688544445",
+        "fecha":"2023-03-15",
+        "hora":"13:20",
+        "pedidos":[
+            {
+                "name":"Completos",
+                "total":"1.992"
+            },
+            {
+                "name":"Espñol",
+                "total":"1.992"
+            }
+        ]
+    }
+}
+
+}
+
+
+
+
+
+   
