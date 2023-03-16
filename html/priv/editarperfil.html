@@ -45,81 +45,38 @@
             </div>
         </nav>
         <!-- CONTENIDO -->
-        <div class="container px-4 px-lg-5 ">
-            <section class="vh-100" style="background-color: #f4f5f7;">
-                <div class="container py-5 h-100 ">
-                  <div class="row d-flex justify-content-center align-items-center h-100">
-                    <div class="col col-lg-6 mb-4 mb-lg-0">
-                      <div class="card mb-3" style="border-radius: .5rem;">
-                        <div class="row g-0 justify-content-center align-items-center">
-                          <div class="col-md-4 gradient-custom text-center text-white"
-                            style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem; border-top-right-radius: .5rem; border-bottom-right-radius: .5rem;">
-                            <img src="../../fotos/FotoPerfil.png"
-                              alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
-                            <h5>Juanjo</h5>
-                            <p>Diseñador Web</p>
-                          </div>
-                          <br>                       
-                          
-                          <div class="col-md-8">
-                            <div class="col text-center" style="padding-top: 1rem;">
-                              <a class="text-warning" href="editarperfil.html"> <button class="btn btn-primary btn-block mb-4"> Editar perfil</button> </a>
-                            </div>
-                            <div class="card-body p-4">
-                              <h6>Información</h6>
-                              <hr class="mt-0 mb-4">
-                              <div class="row pt-1">
-                                <div class="col-6 mb-3">
-                                  <h6>Email</h6>
-                                  <p class="text-muted">juanjo@gmail.com</p>
-                                </div>
-                                <div class="col-6 mb-3">
-                                  <h6>Teléfono</h6>
-                                  <p class="text-muted">682237368</p>
-                                </div>
-                              </div>
-                              <div class="row pt-1">
-                                <div class="col-6 mb-3">
-                                  <h6>Dirección</h6>
-                                  <p class="text-muted">juanjo@gmail.com</p>
-                                </div>
-                                <div class="col-6 mb-3">
-                                  <h6>Teléfono</h6>
-                                  <p class="text-muted">682237368</p>
-                                </div>
-                              </div>
-                              <h6>Actividad</h6>
-                              <hr class="mt-0 mb-4">
-                              <div class="row pt-1">
-                                <div class="col-6 mb-3">
-                                  <h6>Pedidos</h6>
-                                  <a class="text-warning " target="_blank" href="../../json/orders.json">Pedios jSON</a>
-                                </div>
-                                <div class="col-6 mb-3">
-                                  <h6>Usuarios</h6>
-                                  <a class="text-warning " target="_blank" href="../../json/users.json">Users Json</a>
-                                </div>
-                                <hr class="mt-0 mb-4">
-                              </div>
-                              <div>
-                                <a href="#!"><i class="fab fa-facebook-f fa-lg me-3 text-warning"></i></a>
-                                <a href="#!"><i class="fab fa-twitter fa-lg me-3 text-warning"></i></a>
-                                <a href="#!"><i class="fab fa-instagram fa-lg text-warning"></i></a>
-                                
-                                <a class="link-danger float-end" href="../../index.html"><button class="btn btn-danger btn-block mb-4"> Cerrar sesión</button></a>
-                              </div>
-                                
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+        <div class="container rounded bg-white mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-3 border-right">
+                    <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="../../fotos/FotoPerfil.png"><span class="font-weight-bold">Juanjo</span><span class="text-black-50">juanjo@gmail.com</span><span> </span></div>
                 </div>
-              </section>
+                <div class="col-md-5 border-right">
+                    <div class="p-3 py-5">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h4 class="text-right">Ajustes del perfil</h4>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-md-6"><label class="labels">Nombre</label><input type="text" class="form-control" placeholder="nombre" value=""></div>
+                            <div class="col-md-6"><label class="labels">Apellidos</label><input type="text" class="form-control" value="" placeholder="apellidos"></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-12"><label class="labels">Teléfono</label><input type="text" class="form-control" placeholder="teléfono" value=""></div>
+                            <div class="col-md-12"><label class="labels">Dirección</label><input type="text" class="form-control" placeholder="dirección" value=""></div>
+                            <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="email" value=""></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6"><label class="labels">País</label><input type="text" class="form-control" placeholder="España" value=""></div>
+                            <div class="col-md-6"><label class="labels">Comunidad</label><input type="text" class="form-control" value="" placeholder="Baleares"></div>
+                        </div>
+                        <div class="mt-5 text-center"><a href="perfil.html"><button class="btn btn-primary profile-button" type="button">Guardar</button></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
         <!-- Footer-->
-        <footer class="bg-dark text-center text-white ">
+        <footer class="bg-dark text-center text-white fixed-bottom">
             <!-- Grid container -->
             <div class="container p-4 pb-0">
             <!-- Section: Social media -->
